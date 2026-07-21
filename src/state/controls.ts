@@ -5,10 +5,16 @@ export type RotationVelocity = readonly [number, number, number]
 
 export const geometryModeAtom = atom<GeometryMode>('sphere')
 export const motionEnabledAtom = atom(true)
-export const sphereRotationVelocityAtom = atom<RotationVelocity>([0.12, 0.18, 0.08])
+export const sphereRotationVelocityAtom = atom<RotationVelocity>([0, 0, 0.24])
 export const planeMotionPhaseAtom = atom(0)
 export const rhombusControlsOpenAtom = atom(false)
 export const circlesControlsOpenAtom = atom(false)
+export const rhombusColorFluxAtom = atom(0)
+export const rhombusBodyPulseAtom = atom(0.5)
+export const rhombusOrbitIntensityAtom = atom(0)
+export const circleColorChangeAtom = atom(0)
+export const circleBodyChangeAtom = atom(0.5)
+export const circleOrbitChangeAtom = atom(0)
 
 export const toggleMotionAtom = atom(null, (get, set) => {
   if (get(geometryModeAtom) === 'sphere') {

@@ -73,7 +73,7 @@ export function SceneControls() {
     <OrbitControls
       ref={controlsRef}
       makeDefault
-      enabled={motionEnabled}
+      enabled
       enableRotate={isSphere}
       enableZoom
       enablePan={!isSphere}
