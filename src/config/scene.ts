@@ -1,0 +1,3 @@
+export const CAMERA_DISTANCE = 280
+export const PLANE_REFERENCE_DISTANCE = 200
+export const PLANE_PAN_MARGIN = 1.5

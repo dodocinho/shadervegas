@@ -1,0 +1,5 @@
+export { CirclesIcon } from './CirclesIcon'
+export { GeometryIcon } from './GeometryIcon'
+export { InfoIcon } from './InfoIcon'
+export { MotionIcon } from './MotionIcon'
+export { RhombusIcon } from './RhombusIcon'
